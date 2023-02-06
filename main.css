@@ -1,0 +1,96 @@
+/* body */
+body {
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue", Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #222;
+}
+/* background image */
+.backgroundImage {
+    background-image: url("https://github.com/Charlzk05/Youtube-Downloader/blob/master/resources/Background.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    z-index: -5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* top bar */
+.topBar {
+    position: fixed;
+    background-color: #013771;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 0.5px solid #01306b;
+    overflow: hidden;
+}
+.topBar h4 {
+    font-weight: 500;
+    margin-left: 20px;
+}
+/* main form */
+.mainForm {
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    left: 5%;
+    right: 5%;
+    overflow: hidden;
+}
+.mainForm p {
+    margin: 0;
+    color: gray;
+}
+.mainForm input[type=text] {
+    background-color: transparent;
+    border: 0.5px solid gray;
+    font-size: 15px;
+    padding: 10px;
+    width: 91%;
+    border-radius: 5px; 
+    margin-top: 5px;
+    transition: all 0.2s;
+}
+.mainForm input[type=submit] {
+    background-color: #198754;
+    color: white;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.mainForm input[type=submit]:hover {
+    background-color: #23915e;
+    transition: all 0.2s;
+}
+.mainForm input[type=submit]:active {
+    background-color: #2d9b68;
+    transition: all 0.2s;
+}
+.mainForm input[type=submit]:disabled {
+    background-color: #dc3545;
+    cursor: default;
+    transition: all 0.2s;
+}
+.mainForm .about {
+    margin-top: 30px;
+}
+.mainForm .about h3 {
+    font-weight: 500;
+}
+.mainForm .paragraph {
+    color: black;
+    margin-top: 30px;
+}
